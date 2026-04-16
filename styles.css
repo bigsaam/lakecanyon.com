@@ -705,6 +705,58 @@ img {
   margin-left: 0.25rem;
 }
 
+/* WhatsApp button (full-width in contact card) */
+.whatsapp-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  padding: 0.7rem 1rem;
+  background: #25d366;
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.whatsapp-btn:hover {
+  background: #1eb955;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.whatsapp-btn svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+/* Compact WhatsApp button (inline with other buttons) */
+.btn-whatsapp {
+  background: #25d366;
+  color: #fff;
+}
+
+.btn-whatsapp:hover {
+  background: #1eb955;
+  color: #fff;
+}
+
+.btn-whatsapp svg {
+  flex-shrink: 0;
+}
+
+/* Resident actions row */
+.resident-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
 /* --- Footer --- */
 .site-footer {
   background: var(--color-forest);
